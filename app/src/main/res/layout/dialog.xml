@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ui"
+            android:text="OK"
+            android:id="@+id/ok"
+            android:layout_weight="0.5"
+           android:layout_marginLeft="40dp"
+            android:textColor="@color/colorWhite" />
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+android:id="@+id/cl"
+            android:background="@drawable/bg_ui"
+            android:layout_weight="0.5"
+            android:text="Cancle"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</LinearLayout>
